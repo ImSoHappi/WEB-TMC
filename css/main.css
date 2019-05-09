@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    font-size: 72px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+.Iserv{
+    width: 200px;
+    height: 200px;
+}
+
+.Inoti{
+    width: 400px;
+    height: 400px;
+}
+
+
+@media (max-width: 1200px) {
+    
+    .Iserv{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+
+    h1{
+        font-size: 54px;
+    }
+
+    h2{
+        margin-bottom: 2%;
+    }
+}
+  
