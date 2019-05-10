@@ -15,8 +15,37 @@ h2{
 }
 
 .Inoti{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+}
+
+h4{
+    font-size: 34px;
+}
+
+.box{
+    margin-left: 120px;
+    width: 300px;
+}
+.lab{
+    margin-left: 120px;
+}
+
+.fotolista{
+    width: 300px;
+    height: 300px;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.cajafiltro{
+    margin-top: 67px;
+}
+
+.filtro{
+    padding: 30px 50px;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 
 
@@ -35,5 +64,93 @@ h2{
     h2{
         margin-bottom: 2%;
     }
+
+    .Inoti{
+        margin-left: 8%;
+    }
+
+    .fotolista{
+        width: 250px;
+        height: 250px;
+        margin-left: 7%;
+        margin-top: 7%;
+    }
+}
+
+@media (max-width: 980px) {
+    .fotolista{
+        width: 180px;
+        height: 180px;
+        margin-left: 7%;
+        margin-top: 7%;
+    }
+}
+
+@media (max-width: 768px) {
+    .lab{
+        margin-left: 0;
+    }
+    .box{
+        margin-left: 20%;
+    }
+}
+@media (max-width:576px) {
+    .box{
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 750px) {
+    .fotolista{
+        width: 300px;
+        height: 250px;
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+}
+
+@media (max-width: 500px) {
+    .fotolista{
+        width: 250px;
+        height: 200px;
+        margin-left: 13%;
+    }
+
+    .box{
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 437px) {
+    .box{
+        margin-left: 10%;
+        width: 250px;
+    }
+    .filtro{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    .box{
+        width: 180px;
+    }
+    .filtro{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 765px) {
+    
+    .Inoti{
+        margin-left: 0%;
+    }
 }
   
+
+@media (min-width: 1000px) {
+    
+    .Inoti{
+        margin-left: 8%;
+    }
+}
