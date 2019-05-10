@@ -65,10 +65,6 @@ h4{
         margin-bottom: 2%;
     }
 
-    .Inoti{
-        margin-left: 8%;
-    }
-
     .fotolista{
         width: 250px;
         height: 250px;
@@ -84,6 +80,9 @@ h4{
         margin-left: 7%;
         margin-top: 7%;
     }
+    h1{
+        margin-bottom: 10%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -91,66 +90,34 @@ h4{
         margin-left: 0;
     }
     .box{
-        margin-left: 20%;
-    }
-}
-@media (max-width:576px) {
-    .box{
-        margin-left: 17%;
-    }
-}
-
-@media (max-width: 750px) {
-    .fotolista{
-        width: 300px;
-        height: 250px;
-        margin-left: 20%;
-        margin-top: 7%;
-    }
-}
-
-@media (max-width: 500px) {
-    .fotolista{
-        width: 250px;
-        height: 200px;
-        margin-left: 13%;
-    }
-
-    .box{
         margin-left: 3%;
+        width: 90%;
     }
+    .Inoti{
+        margin-left: 15%;
+    }
+    .fotolista{
+        margin-left: 34%;
+    }
+    
 }
 
-@media (max-width: 437px) {
-    .box{
-        margin-left: 10%;
+
+@media (max-width: 400px) {
+    .fotolista{
+        width: 200px;
+        height: 200px;
+        margin-left: 14%;
+    }
+    .filtro{
+        padding: 15px;
+    }
+    .Inoti{
         width: 250px;
+        height: 250px;
+        margin-left: 5%;
     }
-    .filtro{
-        padding: 20px;
-    }
-}
-
-@media (max-width: 370px) {
-    .box{
-        width: 180px;
-    }
-    .filtro{
-        padding: 10px;
-    }
-}
-
-@media (min-width: 765px) {
-    
-    .Inoti{
-        margin-left: 0%;
-    }
-}
-  
-
-@media (min-width: 1000px) {
-    
-    .Inoti{
-        margin-left: 8%;
+    h1{
+        margin-bottom: 20%;
     }
 }
