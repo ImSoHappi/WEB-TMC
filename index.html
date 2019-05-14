@@ -22,7 +22,7 @@
 
         <!-- NAVEGADOR -->
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary ">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary ">
           <h4><a class="navbar-brand" href="#">Tu Maestro Chasquilla</a></h4> 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,27 +35,69 @@
               <li class="nav-item">
                 <a class="nav-link" href="servicios.html">Servicios</a>
               </li>
+              <!-- 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Mi Cuenta
                 </a>
+
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="#">Mi Cuenta</a>
                   <a class="dropdown-item" href="#">Historial de servicios</a>
-                  <a class="dropdown-item" href="#">Desconectar</a>
+                  <a class="dropdown-item" href="#">Desconectar</a> 
+                -->
                 </div>
               </li>
             </ul>
+              <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter">
+                Registrate/Logueate
+              </button>
           </div>
         </nav>
 
     </header>
 
-
-
-      <!-- CAROUSEL -->
-
       <main role="main">
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Identificate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                      <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa email">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa contraseña">
+                          </div>
+                          <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+                          </div>
+                        </form>
+
+                  </div>
+                  <div class="modal-footer">
+                      <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button> 
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+
+                 <!-- CAROUSEL -->
 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
 

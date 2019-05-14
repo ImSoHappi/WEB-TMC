@@ -32,23 +32,71 @@
               <li class="nav-item active">
                 <a class="nav-link" href="servicios.html">Servicios <span class="sr-only">(current)</span></a>
               </li>
+
+              <!-- 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Mi Cuenta
                 </a>
+
+                  
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="#">Mi Cuenta</a>
                   <a class="dropdown-item" href="#">Historial de servicios</a>
-                  <a class="dropdown-item" href="#">Desconectar</a>
+                  <a class="dropdown-item" href="#">Desconectar</a> 
+                -->
+
                 </div>
               </li>
             </ul>
+            <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter">
+              Registrate/Logueate
+            </button>
           </div>
         </nav>
 
     </header>
 
 <main role="main">
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Identificate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                      <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa email">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa contraseña">
+                          </div>
+                          <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+                          </div>
+                        </form>
+
+                  </div>
+                  <div class="modal-footer">
+                      <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button> 
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+  
+
 
     <!-- FILTROS -->
 
