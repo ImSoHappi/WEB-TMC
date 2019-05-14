@@ -39,7 +39,8 @@ h4{
 }
 
 .cajafiltro{
-    margin-top: 67px;
+    margin-top: 25px;
+    max-height: 650px;
 }
 
 .filtro{

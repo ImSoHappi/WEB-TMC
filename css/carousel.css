@@ -96,10 +96,10 @@ body {
 
 
   .carousel-item {
-    height: 40rem;
+    height: 35rem;
   }
 
   .carousel-item > img {
-    height: 40rem;
+    height: 35rem;
   }
 }
